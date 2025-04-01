@@ -32,7 +32,7 @@ Marahin Aja ("Just Scold It" in English) is an innovative emotional release plat
 - Private chat rooms between users
 - Strict data protection policies
 
-### 3. AI Wizard (Coming Soon)
+### 3. AI Wizard (Coming Soon, need to raise some money cause im broke)
 - Smart AI assistant for emotional support
 - Personalized coping strategies
 
