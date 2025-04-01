@@ -1,66 +1,124 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Marahin Aja
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<img src="public/images/logo.svg" width="200" alt="Marahin Aja Logo">
 </p>
 
-## About Laravel
+## About Marahin Aja
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Marahin Aja ("Just Scold It" in English) is an innovative emotional release platform that provides users with a safe and private space to express their feelings and frustrations. Built with Laravel and modern web technologies, this application offers a unique approach to emotional well-being and stress management.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Key Features
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### 1. Uncensored Expression
+- Complete freedom to express emotions without judgment
+- Safe environment for authentic emotional release
+- No content filtering or censorship (within legal bounds)
 
-## Learning Laravel
+### 2. Privacy First
+- End-to-end encrypted conversations
+- Private chat rooms between users
+- Strict data protection policies
+- Anonymous interaction options
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### 3. AI Wizard (Coming Soon)
+- Smart AI assistant for emotional support
+- Personalized coping strategies
+- Empathetic conversation partner
+- Advanced natural language processing
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### 4. User Experience
+- Dark/Light mode support
+- Responsive design for all devices
+- Modern, intuitive interface
+- Smooth animations and transitions
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Technical Stack
 
-## Laravel Sponsors
+- **Framework:** Laravel 10.x
+- **Frontend:** 
+  - Blade Templates
+  - TailwindCSS
+  - Alpine.js
+- **Database:** MySQL
+- **Authentication:** Laravel Breeze
+- **Additional Features:**
+  - Real-time chat functionality
+  - Theme switching with local storage
+  - Responsive glassmorphism design
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Installation
 
-### Premium Partners
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/marahinaja.git
+```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+2. Install dependencies
+```bash
+composer install
+npm install
+```
+
+3. Configure environment
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+
+4. Set up database
+```bash
+php artisan migrate
+```
+
+5. Compile assets
+```bash
+npm run dev
+```
+
+6. Start the server
+```bash
+php artisan serve
+```
+
+## Development Guidelines
+
+- Follow PSR-12 coding standards
+- Write meaningful commit messages
+- Document new features and changes
+- Test thoroughly before submitting PRs
+
+## Security
+
+- All conversations are encrypted
+- User data is protected and never shared
+- Regular security audits
+- Compliance with data protection regulations
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+We welcome contributions to Marahin Aja! Please read our contributing guidelines before submitting pull requests.
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Marahin Aja is proprietary software. All rights reserved.
+
+## Contact
+
+For inquiries and support, please contact us at:
+- Email: support@marahinaja.com
+- Website: https://marahinaja.com
+
+## Acknowledgments
+
+Special thanks to all contributors and supporters who have helped make Marahin Aja possible.
+
+---
+
+Built with ❤️ for emotional well-being
