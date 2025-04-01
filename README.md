@@ -8,6 +8,19 @@
 
 Marahin Aja ("Just Scold It" in English) is an innovative emotional release platform that provides users with a safe and private space to express their feelings and frustrations. Built with Laravel and modern web technologies, this application offers a unique approach to emotional well-being and stress management.
 
+## Snapshots
+### Landing Page
+![127 0 0 1_8000_(Asus Zenbook Fold)](https://github.com/user-attachments/assets/b5daa52d-3738-4a9f-ae05-6019f17df283)
+
+### Login Page
+![127 0 0 1_8000_login(Asus Zenbook Fold)](https://github.com/user-attachments/assets/9958b7b7-bffa-4e8b-ac93-89c1319de65b)
+
+### Preference Page
+![127 0 0 1_8000_preference(Asus Zenbook Fold)](https://github.com/user-attachments/assets/73398341-d9a6-4140-8ba2-249ffffe4697)
+
+### Chat Room
+![127 0 0 1_8000_chat_16(Asus Zenbook Fold)](https://github.com/user-attachments/assets/86476b89-b7cf-4460-86bb-039c98871423)
+
 ## Key Features
 
 ### 1. Uncensored Expression
