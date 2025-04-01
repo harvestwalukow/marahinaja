@@ -11,21 +11,17 @@ Marahin Aja ("Just Scold It" in English) is an innovative emotional release plat
 ## Key Features
 
 ### 1. Uncensored Expression
-- Complete freedom to express emotions without judgment
-- Safe environment for authentic emotional release
+- Complete freedom to express emotions
 - No content filtering or censorship (within legal bounds)
 
 ### 2. Privacy First
 - End-to-end encrypted conversations
 - Private chat rooms between users
 - Strict data protection policies
-- Anonymous interaction options
 
 ### 3. AI Wizard (Coming Soon)
 - Smart AI assistant for emotional support
 - Personalized coping strategies
-- Empathetic conversation partner
-- Advanced natural language processing
 
 ### 4. User Experience
 - Dark/Light mode support
@@ -39,12 +35,10 @@ Marahin Aja ("Just Scold It" in English) is an innovative emotional release plat
 - **Frontend:** 
   - Blade Templates
   - TailwindCSS
-  - Alpine.js
 - **Database:** MySQL
 - **Authentication:** Laravel Breeze
 - **Additional Features:**
   - Real-time chat functionality
-  - Theme switching with local storage
   - Responsive glassmorphism design
 
 ## Installation
@@ -71,54 +65,10 @@ php artisan key:generate
 php artisan migrate
 ```
 
-5. Compile assets
-```bash
-npm run dev
-```
-
 6. Start the server
 ```bash
 php artisan serve
 ```
-
-## Development Guidelines
-
-- Follow PSR-12 coding standards
-- Write meaningful commit messages
-- Document new features and changes
-- Test thoroughly before submitting PRs
-
-## Security
-
-- All conversations are encrypted
-- User data is protected and never shared
-- Regular security audits
-- Compliance with data protection regulations
-
-## Contributing
-
-We welcome contributions to Marahin Aja! Please read our contributing guidelines before submitting pull requests.
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-
-Marahin Aja is proprietary software. All rights reserved.
-
-## Contact
-
-For inquiries and support, please contact us at:
-- Email: support@marahinaja.com
-- Website: https://marahinaja.com
-
-## Acknowledgments
-
-Special thanks to all contributors and supporters who have helped make Marahin Aja possible.
-
 ---
 
 Built with ❤️ for emotional well-being
