@@ -39,7 +39,7 @@ Marahin Aja ("Just Scold It" in English) is an innovative emotional release plat
 - **Frontend:** 
   - Blade Templates
   - TailwindCSS
-  - Alpine.js
+  - Vanilla JavaScript
 - **Database:** MySQL
 - **Authentication:** Laravel Breeze
 - **Additional Features:**

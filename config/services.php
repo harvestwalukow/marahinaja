@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'huggingface' => [
+        'token' => env('HUGGINGFACE_API_TOKEN', ''),
+        'text_model' => env('HUGGINGFACE_TEXT_MODEL', 'gpt2'),
+        'image_model' => env('HUGGINGFACE_IMAGE_MODEL', 'stabilityai/stable-diffusion-2'),
+    ],
+
 ];

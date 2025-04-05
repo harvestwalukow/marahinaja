@@ -55,13 +55,16 @@
         <div class="absolute -bottom-20 -left-20 w-60 h-60 rounded-full bg-ye-marah opacity-10 blur-2xl"></div>
         
         <h2 class="text-2xl md:text-3xl font-bold mb-4 relative z-10">
-            AI Wizard <span class="text-sm py-1 px-3 bg-ye-accent text-white rounded-full ml-2">COMING SOON</span>
+            AI Wizard
         </h2>
         <p class="text-lg max-w-2xl mx-auto opacity-80 relative z-10 mb-8">
-            Segera hadir! Asisten virtual AI yang akan membantu menyelesaikan masalah Anda dengan pendekatan yang cerdas dan empatik. Dapatkan wawasan baru dan perspektif berbeda untuk masalah Anda melalui teknologi kecerdasan buatan tercanggih.
+            Dapatkan rekomendasi praktis dari AI untuk mengatasi kemarahan Anda! Cukup isi beberapa pertanyaan singkat, dan AI kami akan memberikan saran yang disesuaikan dengan kondisi Anda untuk membantu mengelola emosi dengan lebih efektif.
         </p>
         <a href="{{ route('ai.wizard') }}" class="ye-btn-outline rounded-xl inline-flex items-center group px-6 py-3">
-            <span class="group-hover:text-current">Selengkapnya</span>
+            <span class="group-hover:text-current">Coba Sekarang</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 transform transition-transform group-hover:translate-x-1" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
         </a>
     </div>
     
