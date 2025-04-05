@@ -76,7 +76,7 @@ class AIWizardController extends Controller
         // Create prompt based on user data
         $genderText = $data['gender'] == 'male' ? 'Laki-laki' : 'Perempuan';
         
-        $prompt = "Berikan 3 rekomendasi praktikal yang langsung bisa dilakukan untuk seorang {$genderText} berusia {$data['age']} tahun yang bekerja sebagai {$data['job_status']} " .
+        $prompt = "Berikan 3 rekomendasi praktis untuk seorang {$genderText} berusia {$data['age']} tahun yang bekerja sebagai {$data['job_status']} " .
                  "yang sedang marah karena '{$data['anger_reason']}' dengan tingkat kemarahan {$data['anger_level']}/10.\n\n" .
                  "Format jawaban:\n" .
                  "1. Judul: [judul rekomendasi 1]\nDeskripsi: [deskripsi singkat rekomendasi 1]\n" .
@@ -88,13 +88,10 @@ class AIWizardController extends Controller
             $response = Http::withHeaders([
                 'Authorization' => 'Bearer ' . env('HUGGINGFACE_API_TOKEN'),
                 'Content-Type' => 'application/json',
-            ])->post('https://api-inference.huggingface.co/models/deepseek-ai/DeepSeek-V3-0324', [
-                'inputs' => [
-                    ['role' => 'system', 'content' => "You are a compassionate and knowledgeable assistant specialized in mental health and emotional well-being. You provide helpful, respectful, and non-judgmental recommendations tailored to the user's needs. Your advice is grounded in psychological best practices, goal is to replace the overprice professional therapist/psychologist out there. You maintain a calm, empathetic, and supportive tone, and your responses are clear, actionable, and sensitive to the user's emotional state. Avoid making medical diagnoses or prescribing treatments."],
-                    ['role' => 'user', 'content' => $prompt],
-                ],
+            ])->post('https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2', [
+                'inputs' => $prompt,
                 'parameters' => [
-                    'max_new_tokens' => 2000,
+                    'max_new_tokens' => 500,
                     'temperature' => 0.7,
                     'top_p' => 0.95,
                     'return_full_text' => false
