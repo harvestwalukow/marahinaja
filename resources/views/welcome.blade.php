@@ -12,7 +12,7 @@
     
     <!-- Main CTA Button -->
     <a href="{{ route('login') }}" class="ye-btn-primary rounded-xl px-10 py-5 text-xl font-bold transform transition hover:scale-105">
-        LUAPKAN EMOSI
+        MULAI
     </a>
     
     <!-- Scroll Indicator -->
@@ -33,7 +33,7 @@
             <div class="absolute -right-20 -top-20 w-40 h-40 bg-ye-accent opacity-10 rounded-full transition-all duration-500 group-hover:scale-150 group-hover:opacity-20"></div>
             <h2 class="text-2xl md:text-3xl font-bold mb-4 relative z-10">Tanpa sensor, tanpa rem</h2>
             <p class="text-lg opacity-80 relative z-10">
-                Bebas mengungkapkan apa yang Anda rasakan tanpa takut dihakimi. Platform kami memberikan ruang aman untuk meluapkan emosi secara otentik.
+                Bebas ungkapin apapun yang dirasain.
             </p>
             <div class="absolute left-0 bottom-0 h-1 bg-gradient-to-r from-ye-accent to-ye-marah w-0 group-hover:w-full transition-all duration-500"></div>
         </div>
@@ -43,7 +43,7 @@
             <div class="absolute -left-20 -top-20 w-40 h-40 bg-ye-accent opacity-10 rounded-full transition-all duration-500 group-hover:scale-150 group-hover:opacity-20"></div>
             <h2 class="text-2xl md:text-3xl font-bold mb-4 relative z-10">Privasi aman</h2>
             <p class="text-lg opacity-80 relative z-10">
-                Percakapan hanya bisa dilihat oleh pengirim dan penerima chat. Kami menjaga privasi Anda dengan standar keamanan tertinggi.
+                Percakapan hanya bisa dilihat oleh pengirim dan penerima chat.
             </p>
             <div class="absolute left-0 bottom-0 h-1 bg-gradient-to-r from-ye-accent to-ye-marah w-0 group-hover:w-full transition-all duration-500"></div>
         </div>
@@ -54,17 +54,23 @@
         <div class="absolute -top-20 -right-20 w-60 h-60 rounded-full bg-ye-accent opacity-10 blur-2xl"></div>
         <div class="absolute -bottom-20 -left-20 w-60 h-60 rounded-full bg-ye-marah opacity-10 blur-2xl"></div>
         
-        <h2 class="text-2xl md:text-3xl font-bold mb-4 relative z-10">
+        <!-- <h2 class="text-2xl md:text-3xl font-bold mb-4 relative z-10">
             AI Wizard
+            <span class="ml-2 px-2 py-0.5 text-xs rounded-full bg-ye-accent text-white">BETA</span>
+        </h2> -->
+
+        <h2 class="items-center text-2xl md:text-3xl font-bold mb-4 relative z-10">
+            AI Wizard
+            <span class="px-2 py-0.5 text-xs rounded-full bg-ye-accent text-white">BETA</span>
         </h2>
         <p class="text-lg max-w-2xl mx-auto opacity-80 relative z-10 mb-8">
-            Dapatkan rekomendasi praktis dari AI untuk mengatasi kemarahan Anda! Cukup isi beberapa pertanyaan singkat, dan AI kami akan memberikan saran yang disesuaikan dengan kondisi Anda untuk membantu mengelola emosi dengan lebih efektif.
+            Dapatkan rekomendasi praktis dari AI untuk mengatasi kemarahan.
         </p>
-        <a href="{{ route('ai.wizard') }}" class="ye-btn-outline rounded-xl inline-flex items-center group px-6 py-3">
+        <a href="{{ route('ai-wizard') }}" class="ye-btn-outline rounded-xl inline-flex items-center group px-6 py-3">
             <span class="group-hover:text-current">Coba Sekarang</span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 transform transition-transform group-hover:translate-x-1" viewBox="0 0 20 20" fill="currentColor">
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 transform transition-transform group-hover:translate-x-1" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-            </svg>
+            </svg> -->
         </a>
     </div>
     
@@ -81,7 +87,7 @@
             </div>
         </div>
         <div class="text-center text-sm opacity-60 mt-4">
-            © {{ date('Y') }} Marahin Aja. All rights reserved.
+            © {{ date('Y') }} Harvest Walukow. All rights reserved.
         </div>
     </footer>
 </div>

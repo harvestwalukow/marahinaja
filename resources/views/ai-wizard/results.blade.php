@@ -5,27 +5,8 @@
 @section('content')
 <div class="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
     <div class="max-w-5xl mx-auto">
-        <div class="text-center mb-12">
-            <h1 class="text-4xl font-bold mb-2 gradient-text">Rekomendasi AI</h1>
-            <p class="text-lg opacity-80">Berdasarkan informasi yang Anda berikan</p>
-        </div>
 
-        <div class="mb-8 glass rounded-xl p-6">
-            <h2 class="text-xl font-semibold mb-4">Ringkasan Informasi Anda</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div>
-                    <p><span class="font-medium">Jenis kelamin:</span> {{ $userInput['gender'] == 'male' ? 'Laki-laki' : 'Perempuan' }}</p>
-                    <p><span class="font-medium">Status pekerjaan:</span> {{ $userInput['job_status'] }}</p>
-                    <p><span class="font-medium">Usia:</span> {{ $userInput['age'] }} tahun</p>
-                </div>
-                <div>
-                    <p><span class="font-medium">Tingkat kemarahan:</span> {{ $userInput['anger_level'] }}/10</p>
-                    <p><span class="font-medium">Penyebab kemarahan:</span> "{{ $userInput['anger_reason'] }}"</p>
-                </div>
-            </div>
-        </div>
-
-        <h2 class="text-2xl font-bold mb-6">Rekomendasi Untuk Anda</h2>
+        <h2 class="text-2xl font-bold mb-6">Rekomendasi AI</h2>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             @foreach($results as $result)
@@ -46,14 +27,16 @@
             @endforeach
         </div>
 
+        <!-- Action buttons -->
         <div class="text-center mb-12">
-            <a href="{{ route('ai.wizard') }}" class="ye-btn-outline px-6 py-3 rounded-lg mr-4">Coba Lagi</a>
+            <a href="{{ route('ai-wizard') }}" class="ye-btn-outline px-6 py-3 rounded-lg mr-4">Coba Lagi</a>
             <a href="{{ route('home') }}" class="ye-btn-primary px-6 py-3 rounded-lg">Kembali ke Beranda</a>
         </div>
 
-        <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 text-center opacity-80">
-            <h3 class="text-xl font-semibold mb-2">Catatan Penting</h3>
-            <p>Rekomendasi yang diberikan bersifat umum dan dihasilkan oleh AI. Untuk masalah serius terkait kesehatan mental, silakan konsultasikan dengan profesional.</p>
+        <!-- Important note section with improved visibility in light mode -->
+        <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 text-center border border-gray-200 dark:border-gray-700 shadow-sm">
+            <h3 class="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">Catatan Penting</h3>
+            <p class="text-gray-700 dark:text-gray-300">Rekomendasi yang diberikan bersifat umum dan dihasilkan oleh AI. Untuk masalah serius terkait kesehatan mental, silakan konsultasikan dengan profesional.</p>
         </div>
     </div>
 </div>

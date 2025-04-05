@@ -44,7 +44,7 @@
     // Redirect after a short delay
     document.addEventListener('DOMContentLoaded', function() {
         setTimeout(function() {
-            window.location.href = "{{ route('ai.wizard') }}";
+            window.location.href = "{{ route('ai-wizard') }}";
         }, 1500);
     });
 </script>

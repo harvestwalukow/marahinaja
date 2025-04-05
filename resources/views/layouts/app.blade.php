@@ -302,9 +302,9 @@
                             <div class="dropdown-content">
                                 <ul>
                                     <li>
-                                        <a href="{{ route('ai.wizard') }}" class="menu-item">
+                                        <a href="{{ route('ai-wizard') }}" class="menu-item">
                                             <span class="text-sm font-medium">AI WIZARD</span>
-                                            <span class="ml-2 px-2 py-0.5 text-xs rounded-full bg-ye-accent text-white">COMING SOON</span>
+                                            <span class="ml-2 px-2 py-0.5 text-xs rounded-full bg-ye-accent text-white">BETA</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -349,7 +349,7 @@
         <div class="ye-container py-2">
             <div class="flex justify-between items-center">
                 <div class="text-sm opacity-70">
-                    © 2024 MARAHIN AJA
+                    © {{ date('Y') }} MARAHIN AJA
                 </div>
                 <div class="flex items-center space-x-2">
                     <span class="text-xs opacity-70">Dark</span>

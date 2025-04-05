@@ -36,6 +36,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/api/matching/check', [MatchingController::class, 'check']);
 });
 
-// AI Wizard routes
-Route::get('/ai-wizard', [App\Http\Controllers\AIWizardController::class, 'index'])->name('ai.wizard');
-Route::post('/ai-wizard/recommendations', [App\Http\Controllers\AIWizardController::class, 'generateRecommendations'])->name('ai.wizard.generate');
+// AI Wizard Routes
+Route::middleware(['auth'])->group(function () {
+    Route::get('/ai-wizard', [App\Http\Controllers\AIWizardController::class, 'index'])->name('ai-wizard');
+    Route::post('/ai-wizard/recommendations', [App\Http\Controllers\AIWizardController::class, 'generateRecommendations'])->name('ai-wizard.recommendations');
+});

@@ -12,7 +12,7 @@
         @endif
 
         <div class="glass rounded-xl p-6 md:p-8 mb-12">
-            <form id="wizardForm" action="{{ route('ai.wizard.generate') }}" method="POST">
+            <form id="wizardForm" action="{{ route('ai-wizard.recommendations') }}" method="POST">
                 @csrf
                 
                 <!-- Questions appear one at a time -->
